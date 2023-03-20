@@ -7,14 +7,14 @@
 int main() {
    
    int mark1, mark2;
-   float aveg
+   float aveg;
    
    printf("Enter The Marks of two subjects :");
-   scanf("%d %d", &marks1,&marks2);
+   scanf("%d %d", &mark1,&mark2);
    
-   aveg=(marks1+marks2)/2;
+   aveg=(mark1+mark2)/2;
    
-   printf("Average of the two marks=");
+   printf("Average of the two marks=%.2f", aveg);
   
   return 0;
 }
