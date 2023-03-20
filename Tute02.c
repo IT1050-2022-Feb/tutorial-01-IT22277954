@@ -24,7 +24,7 @@ int main() {
   float A;
   
   printf("Enter the distance the van has travelled=");
-  scanf("%d", D);
+  scanf("%d", &D);
   
   if(D<=30){
     A = D * 50;
